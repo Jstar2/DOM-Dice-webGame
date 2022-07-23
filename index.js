@@ -5,8 +5,8 @@ dice(d1, d2);
 decision(d1, d2);
 
 function dice(p1, p2) {
-  document.getElementById("im1").src = "/images/dice" + d1 + ".png";
-  document.getElementById("im2").src = "/images/dice" + d2 + ".png";
+  document.getElementById("im1").src = "/dice" + d1 + ".png";
+  document.getElementById("im2").src = "/dice" + d2 + ".png";
 }
 
 function decision(d1, d2) {
